@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #d9dcd6;
+    background-color: #bfbfbe;
 }
 
 .header {
@@ -20,9 +20,9 @@ body {
     font-size: 48px;
 }
 
-.header h1 .seo {
+/* .header h1 .seo { Commented out as I removed the color variation of these 3 letters
     color: #d9dcd6;
-}
+} */
 
 .header div {
     padding-top: 15px;
@@ -32,9 +32,9 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+/* .header div ul { *Might be beneficial in a css reset sheet? Could not find any actual impact
     list-style-type: none;
-}
+} */
 
 .header div ul li {
     display: inline-block;
@@ -46,9 +46,9 @@ a {
     text-decoration: none;
 }
 
-p {
+/* p { * Commented out because the default font-size for plain text is 16
     font-size: 16px;
-}
+} */
 
 .hero {
     height: 800px;
@@ -161,17 +161,15 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
+/* .search-engine-optimization img { * Commented out, can be simplified to target the img element.
     max-height: 200px;
 }
-
 .online-reputation-management img {
     max-height: 200px;
 }
-
 .social-media-marketing img {
     max-height: 200px;
-}
+} */
 
 .search-engine-optimization h2 {
     margin-bottom: 20px;
@@ -195,6 +193,10 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+/* .footer h2 { * Could not find any actual impact, footer text stayed the same (Not entirely sure why)
     font-size: 20px;
+} */
+
+img {
+    max-height: 200px;
 }
